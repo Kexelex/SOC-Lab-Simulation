@@ -12,6 +12,8 @@
 
 <h3>What skills I gained</h3>
 
- - How SPL (Splunk Search Processing Language) works and how to use it to detect various events and incidents.<br>
- - Saving queries and dashboards for later use and how to share them with senior management while having full control over who can see sensitive information like as a owner or as a user.<br>
- - Detection and dashboard creation of a specific incident (that is Failed SSH Bruteforce Attack) and understand what things to look for in logs to detect this kind of bruteforce attacks.<br>
+ - How SPL (Splunk Search Processing Language) works and how to use it to detect various events and incidents.
+ - How networking effects the working of chained operations.
+ - Saving queries and dashboards for later use and how to share them with senior management while having full control over who can see sensitive information like as a owner or as a user.
+ - Detection and dashboard creation of a specific incident (that is Failed SSH Bruteforce Attack) and understand what things to look for in logs to detect this kind of bruteforce attacks.
+ 

@@ -1,5 +1,7 @@
 # My-SOC-Lab-Simulation
 
+Built a personal SOC lab environment to practice security monitoring, log ingestion, SIEM configuration, and incident analysis using Splunk and security tools in a simulated environment.
+
 <h2>My Lab Structure</h2>
 
 <img width="1028" height="620" alt="Lab Diagram" src="https://github.com/user-attachments/assets/c2b3fcf2-f20d-443a-a810-e196cfbccb21" />

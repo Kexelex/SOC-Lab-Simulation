@@ -17,4 +17,4 @@ Built a personal SOC lab environment to practice security monitoring, log ingest
 - How SPL (Splunk Search Processing Language) works and how to use it to detect various events and incidents.
 - How networking effects the working of chained operations.
 - Saving queries and dashboards for later use and how to share them with senior management while having full control over who can see sensitive information like as a owner or as a user.
-- Detection and dashboard creation of a specific incident (that is Failed SSH Bruteforce Attack) and understand what things to look for in logs to detect this kind of bruteforce attacks.
+- Detection and dashboard creation of a specific incident, mapped with MITRE ATT&CK Framework and understand what things to look for in logs for IOC (indicators of compromise) and linking events back and forth. 

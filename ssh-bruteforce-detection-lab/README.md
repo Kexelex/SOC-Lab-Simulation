@@ -18,18 +18,18 @@
 
 <h2>Attack Simulation</h2>
 <h3>SSH Brute Force Simulation</h3>
- *A dictionary-based SSH brute-force attack was simulated using Hydra from the Kali Linux attacker machine.
- *The attack targeted the SSH service running on the Ubuntu Server VM.
- *The objective was to simulate adversarial behavior attempting unauthorized remote access when usernames and/or passwords are unknown.
+ * A dictionary-based SSH brute-force attack was simulated using Hydra from the Kali Linux attacker machine.
+ * The attack targeted the SSH service running on the Ubuntu Server VM.
+ * The objective was to simulate adversarial behavior attempting unauthorized remote access when usernames and/or passwords are unknown.
 
 <h2>Attack Methodology</h2>
 <h3>Technique Used</h3>
-SSH Password Brute Force
- *Dictionary Attack
- *Credential Guessing
+ * SSH Password Brute Force
+ * Dictionary Attack
+ * Credential Guessing
 Attack Workflow
- *Reconnaissance of target SSH service
- *Hydra dictionary attack execution
- *Multiple failed login attempts generated
- *Authentication logs collected by Splunk
- *Detection and analysis performed within SIEM
+ * Reconnaissance of target SSH service
+ * Hydra dictionary attack execution
+ * Multiple failed login attempts generated
+ * Authentication logs collected by Splunk
+ * Detection and analysis performed within SIEM

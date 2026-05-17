@@ -6,15 +6,15 @@
 <h2>Lab Environment</h2>
 <h3>Infrastructure</h3>
 
----------------------------------------------------------------
-| Component	               |       Purpose                    |
-|-------------------------------------------------------------- 
-|Ubuntu Server (TTY)	     |       Victim Machine + SIEM Host |
-| Splunk Enterprise        |       Log Analysis & Monitoring  |
-| Kali Linux	             |       Adversary Machine          |
-| Hydra	                   |       Password Brute Force Tool  |
-| VirtualBox	             |       Virtualization Platform    |
----------------------------------------------------------------
+-------------------------------------------------------
+|Component	               |Purpose                    |
+|-------------------------|---------------------------| 
+|Ubuntu Server (TTY)	     |Victim Machine + SIEM Host |
+|Splunk Enterprise        |Log Analysis & Monitoring  |
+|Kali Linux	              |Adversary Machine          |
+|Hydra	                   |Password Brute Force Tool  |
+|VirtualBox	              |Virtualization Platform    |
+-------------------------------------------------------
 
 <h2>Attack Simulation</h2>
 <h3>SSH Brute Force Simulation</h3>

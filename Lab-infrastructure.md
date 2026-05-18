@@ -8,13 +8,13 @@ Built a personal Security Operations Center (SOC) lab environment to simulate re
 -------------------------------------------------------------------------------------------------------------
 Component                   |  Purpose
 -------------------------------------------------------------------------------------------------------------
-Ubuntu Desktop                 Main Host OS
-Windows 11 Laptop              Separate Endpoint Device for Windows Log Monitoring & Security Event Analysis
-Ubuntu Server (TTY)            Victim Machine + Splunk SIEM
-Kali Linux                     Adversary Simulation Machine
-Splunk Enterprise              Log Collection & SIEM Analysis
-Splunk Universal Forwarder     Log Forwarding
-VirtualBox                     Virtualization Platform
+Ubuntu Desktop              |   Main Host OS
+Windows 11 Laptop           |   Separate Endpoint Device for Windows Log Monitoring & Security Event Analysis
+Ubuntu Server (TTY)         |   Victim Machine + Splunk SIEM
+Kali Linux                  |   Adversary Simulation Machine
+Splunk Enterprise           |   Log Collection & SIEM Analysis
+Splunk Universal Forwarder  |   Log Forwarding
+VirtualBox                  |   Virtualization Platform
 -------------------------------------------------------------------------------------------------------------
 
 ### Setup & Configuration
@@ -79,11 +79,11 @@ The simulated attacks and detections are mapped to the MITRE ATT&CK framework to
 ------------------------------------------------
 | Technique                             |  ID   |
 | --------------------------------------------- |
-| Brute Force                             T1110 |
-| Phishing                                T1566 |
-| Command and Scripting Interpreter       T1059 |
-| Network Service Scanning                T1046 |
-| Exploitation for Privilege Escalation   T1068 |
+| Brute Force                           | T1110 |
+| Phishing                              | T1566 |
+| Command and Scripting Interpreter     | T1059 |
+| Network Service Scanning              | T1046 |
+| Exploitation for Privilege Escalation | T1068 |
 -------------------------------------------------
 [MITRE ATT&CK](https://attack.mitre.org/).
 

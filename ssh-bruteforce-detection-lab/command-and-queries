@@ -1,3 +1,3 @@
 ##Hydra Command Used
     * hydra -l wordlist.txt -P wordlist.txt ssh:192.168.1.166
-      <img src=https://github.com/Kexelex/SOC-Lab-Simulation/blob/main/ssh-bruteforce-detection-lab/screenshots/hydra-attack.png>
+![Hydra attack](ssh-bruteforce-detection-lab/screenshots/hydra-attack.png)

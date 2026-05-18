@@ -59,13 +59,13 @@ This SOC lab is used to simulate and analyze various attacker techniques and sec
 ## MITRE ATT&CK Mapping
 The simulated attacks and detections are mapped to the MITRE ATT&CK framework to better understand attacker tactics, techniques, and procedures (TTPs).
 
-| Technique | ID |
-|---|---|
-| Brute Force | T1110 |
-| Phishing for Initial Access | T1566 |
-| Command and Scripting Interpreter | T1059 |
-| Network Service Scanning | T1046 |
-| Exploitation for Privilege Escalation | T1068 |
+| Attack Scenario | Technique | ID |
+|---|---|---|
+| SSH Brute Force | Brute Force | T1110 |
+| Phishing Analysis | Phishing for Initial Access | T1566 |
+| Reverse Shell | Command and Scripting Interpreter | T1059 |
+| Network Reconnaissance | Network Service Scanning | T1046 |
+| Privellege Escalation | Exploitation for Privilege Escalation | T1068 |
 
 [MITRE ATT&CK](https://attack.mitre.org/).
 

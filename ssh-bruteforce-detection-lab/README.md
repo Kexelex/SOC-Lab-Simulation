@@ -1,10 +1,10 @@
-<h1>SSH Brute Force Attack Detection Lab</h1>
-<h2>Project Overview</h2>
- This lab simulation demonstrates detection and analysis of an SSH brute-force attack using Splunk Enterprise.
- The objective of this project was to simulate a real-world SSH dictionary brute-force attack from an adversary machine and investigate authentication logs within a SIEM environment.
+# SSH Brute Force Attack Detection Lab
+## Project Overview
+    This lab simulation demonstrates detection and analysis of an SSH brute-force attack using Splunk Enterprise.
+    The objective of this project was to simulate a real-world SSH dictionary brute-force attack from an adversary machine and investigate authentication logs within a SIEM environment.
 
-<h2>Lab Environment</h2>
-<h3>Infrastructure</h3>
+## Lab Environment
+### Infrastructure
 
 -------------------------------------------------------
 |Component	               |Purpose                    |
@@ -16,20 +16,20 @@
 |VirtualBox	              |Virtualization Platform    |
 -------------------------------------------------------
 
-<h2>Attack Simulation</h2>
-<h3>SSH Brute Force Simulation</h3>
- * A dictionary-based SSH brute-force attack was simulated using Hydra from the Kali Linux attacker machine.<br>
- * The attack targeted the SSH service running on the Ubuntu Server VM.<br>
- * The objective was to simulate adversarial behavior attempting unauthorized remote access when usernames and/or passwords are unknown.
+## Attack Simulation
+### SSH Brute Force Simulation
+    A dictionary-based SSH brute-force attack was simulated using Hydra from the Kali Linux attacker machine.<br>
+    The attack targeted the SSH service running on the Ubuntu Server VM.<br>
+    The objective was to simulate adversarial behavior attempting unauthorized remote access when usernames and/or passwords are unknown.
 
-<h2>Attack Methodology</h2>
-<h3>Technique Used</h3>
-  * SSH Password Brute Force<br>
-  * Dictionary Attack<br>
-  * Credential Guessing
-<h3>Attack Workflow</h3>
-  * Reconnaissance of target SSH service<br>
-  * Hydra dictionary attack execution<br>
-  * Multiple failed login attempts generated<br>
-  * Authentication logs collected by Splunk<br>
-  * Detection and analysis performed within SIEM
+## Attack Methodology
+### Technique Used
+    SSH Password Brute Force
+    Dictionary Attack
+    Credential Guessing
+### Attack Workflow
+    Reconnaissance of target SSH service
+    Hydra dictionary attack execution
+    Multiple failed login attempts generated
+    Authentication logs collected by Splunk
+    Detection and analysis performed within SIEM

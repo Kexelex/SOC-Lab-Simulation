@@ -5,6 +5,7 @@ Built a personal Security Operations Center (SOC) lab environment to simulate re
 <img width="1028" height="620" alt="Lab Diagram" src="https://github.com/user-attachments/assets/c2b3fcf2-f20d-443a-a810-e196cfbccb21" />
 
 ## Lab Environment
+
 -------------------------------------------------------------------------------------------------------------
 Component                   |  Purpose
 -------------------------------------------------------------------------------------------------------------
@@ -76,9 +77,9 @@ This SOC lab is used to simulate and analyze various attacker techniques and sec
 ## MITRE ATT&CK Mapping
 The simulated attacks and detections are mapped to the MITRE ATT&CK framework to better understand attacker tactics, techniques, and procedures (TTPs).
 
-------------------------------------------------
+-------------------------------------------------
 | Technique                             |  ID   |
-| --------------------------------------------- |
+-------------------------------------------------
 | Brute Force                           | T1110 |
 | Phishing                              | T1566 |
 | Command and Scripting Interpreter     | T1059 |

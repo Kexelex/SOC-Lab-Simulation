@@ -6,7 +6,6 @@ Built a personal Security Operations Center (SOC) lab environment to simulate re
 
 ## Lab Environment
 
--------------------------------------------------------------------------------------------------------------
 Component                   |  Purpose
 -------------------------------------------------------------------------------------------------------------
 Ubuntu Desktop              |   Main Host OS
@@ -16,7 +15,7 @@ Kali Linux                  |   Adversary Simulation Machine
 Splunk Enterprise           |   Log Collection & SIEM Analysis
 Splunk Universal Forwarder  |   Log Forwarding
 VirtualBox                  |   Virtualization Platform
--------------------------------------------------------------------------------------------------------------
+------
 
 ### Setup & Configuration
   - Installed and configured Splunk Enterprise on the Ubuntu Server VM from scratch.

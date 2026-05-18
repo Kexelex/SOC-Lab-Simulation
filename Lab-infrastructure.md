@@ -62,7 +62,7 @@ The simulated attacks and detections are mapped to the MITRE ATT&CK framework to
 | Technique | ID |
 |---|---|
 | Brute Force | T1110 |
-| Phishing | T1566 |
+| Phishing for Initial Access | T1566 |
 | Command and Scripting Interpreter | T1059 |
 | Network Service Scanning | T1046 |
 | Exploitation for Privilege Escalation | T1068 |

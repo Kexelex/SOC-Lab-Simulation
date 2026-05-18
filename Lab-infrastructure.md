@@ -6,17 +6,15 @@ Built a personal Security Operations Center (SOC) lab environment to simulate re
 
 ## Lab Environment
 
-----------------------------------------------------------------------------------------------------------------
-Component                   |  Purpose
-----------------------------------------------------------------------------------------------------------------
-Ubuntu Desktop              |   Main Host OS
-Windows 11 Laptop           |   Separate Endpoint Device for Windows Log Monitoring & Security Event Analysis
-Ubuntu Server (TTY)         |   Victim Machine + Splunk SIEM
-Kali Linux                  |   Adversary Simulation Machine
-Splunk Enterprise           |   Log Collection & SIEM Analysis
-Splunk Universal Forwarder  |   Log Forwarding
-VirtualBox                  |   Virtualization Platform
-----------------------------------------------------------------------------------------------------------------
+| Component | Purpose |
+|---|---|
+| Ubuntu Desktop | Main Host OS |
+| Windows 11 Laptop | Separate Endpoint Device for Windows Log Monitoring & Security Event Analysis |
+| Ubuntu Server (TTY) | Victim Machine + Splunk SIEM |
+| Kali Linux | Adversary Simulation Machine |
+| Splunk Enterprise | Log Collection & SIEM Analysis |
+| Splunk Universal Forwarder | Log Forwarding |
+| VirtualBox | Virtualization Platform |
 
 ### Setup & Configuration
   - Installed and configured Splunk Enterprise on the Ubuntu Server VM from scratch.
@@ -33,7 +31,6 @@ This SOC lab is used to simulate and analyze various attacker techniques and sec
   - Simulated SSH dictionary brute-force attacks using Hydra from Kali Linux.
   - Monitored failed authentication attempts in Splunk.
   - Created SPL detection queries and brute-force alerts.
-  - Mapped attack activity to the MITRE ATT&CK framework (T1110 — Brute Force).
 
 ### Phishing Analysis
   - Investigated phishing email indicators and suspicious links/files.
@@ -59,6 +56,19 @@ This SOC lab is used to simulate and analyze various attacker techniques and sec
   - Analyzed authentication and authorization logs.
   - Practiced identifying indicators of privilege escalation and unauthorized access
 
+## MITRE ATT&CK Mapping
+The simulated attacks and detections are mapped to the MITRE ATT&CK framework to better understand attacker tactics, techniques, and procedures (TTPs).
+
+| Technique | ID |
+|---|---|
+| Brute Force | T1110 |
+| Phishing | T1566 |
+| Command and Scripting Interpreter | T1059 |
+| Network Service Scanning | T1046 |
+| Exploitation for Privilege Escalation | T1068 |
+
+[MITRE ATT&CK](https://attack.mitre.org/).
+
 ## Detection Engineering & SIEM Operations
 
 ### Splunk Skills Practiced
@@ -73,20 +83,6 @@ This SOC lab is used to simulate and analyze various attacker techniques and sec
   - Security event monitoring
   - Detection rule creation
   - Threat hunting basics
-
-## MITRE ATT&CK Mapping
-The simulated attacks and detections are mapped to the MITRE ATT&CK framework to better understand attacker tactics, techniques, and procedures (TTPs).
-
--------------------------------------------------
-| Technique                             |  ID   |
--------------------------------------------------
-| Brute Force                           | T1110 |
-| Phishing                              | T1566 |
-| Command and Scripting Interpreter     | T1059 |
-| Network Service Scanning              | T1046 |
-| Exploitation for Privilege Escalation | T1068 |
--------------------------------------------------
-[MITRE ATT&CK](https://attack.mitre.org/).
 
 ## ISO 27001:2022 Security Control Alignment
 The SOC lab environment was also used to understand how security monitoring and incident response activities align with real-world information security governance practices defined in ISO/IEC 27001.

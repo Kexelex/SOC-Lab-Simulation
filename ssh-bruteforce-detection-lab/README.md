@@ -57,7 +57,7 @@
 ### Failed SSH Login Detection Query
      index=* "Failed Password"
 
-### Identfy Source IP with Most Failures
+### Identfied Source IP with Most Failures
      index=* sourcetype=syslog "Failed password"
      |stats count by src_ip
      |sort - count

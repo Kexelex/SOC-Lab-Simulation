@@ -66,7 +66,7 @@
      index=* sourcetype=syslog "Failed password"
      |rex "frem(?<src_ip>\d+\.\d+\.\d+\.\d+"
      |stats count by src_ip
-     |where count > 10
+     |sort -count
 
 ## Security Observations
   - Repeated authentication failures was strong indicator of automated brute-force activity.

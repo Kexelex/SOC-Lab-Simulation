@@ -14,3 +14,7 @@
 
 ## Creating Alert
 <img width="800" height="648" alt="creating-alert" src="https://github.com/user-attachments/assets/13b2611f-4a03-4c44-b92a-03189675b2e1" />
+
+
+## Report
+On May 16, 2026 at 23:11 (UTC), logs reported unusual multiple failed attempts on sshd service from unknown IP (192.168.1.67) trying to log in from remote machine on host "soc-analyst" (192.168.1.166). After analying IOC (multiple failed attempts at a superhuman speed, average nearly 250 attempts per minute) confirms some automation tools being used by adversary trying to guess the password using custom dictionary to bruteforce ssh service. Adversary failed everytime so system is still secured.

@@ -69,8 +69,8 @@
      |where count > 10
 
 ## Security Observations
-  - Repeated authentication failures are a strong indicator of automated brute-force activity.
-  - Single-source IP generating high-frequency login attempts confirms attack automation.
+  - Repeated authentication failures was strong indicator of automated brute-force activity.
+  - Single-source IP generating high-frequency login attempts confirmed attack automation.
   - Splunk successfully provided centralized visibility into SSH authentication logs.
   - Log correlation allowed clear identification of malicious behavior patterns.
   - Detection logic effectively separated normal login activity from attack traffic.

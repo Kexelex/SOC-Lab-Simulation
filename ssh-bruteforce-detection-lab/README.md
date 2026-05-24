@@ -7,12 +7,12 @@
 ### Infrastructure
 
 -------------------------------------------------------
-|Component	               |Purpose                    |
+|Component	              |Purpose                    |
 |-------------------------|---------------------------| 
 |Ubuntu Server (TTY)	     |Victim Machine + SIEM Host |
 |Splunk Enterprise        |Log Analysis & Monitoring  |
 |Kali Linux	              |Adversary Machine          |
-|Hydra	                   |Password Brute Force Tool  |
+|Hydra	                 |Password Brute Force Tool  |
 |VirtualBox	              |Virtualization Platform    |
 -------------------------------------------------------
 

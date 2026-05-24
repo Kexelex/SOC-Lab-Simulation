@@ -17,4 +17,13 @@
 
 
 ## Report
-On May 16, 2026 at 23:11 (UTC), logs reported unusual multiple failed attempts on sshd service from unknown IP (192.168.1.67) trying to log in from remote machine on host "soc-analyst" (192.168.1.166). After analying IOC (multiple failed attempts at a superhuman speed, average nearly 250 attempts per minute) confirms some automation tools being used by adversary trying to guess the password using custom dictionary to bruteforce ssh service. Adversary failed everytime so system is still secured.
+On May 16, 2026, at 23:11 UTC, multiple failed authentication attempts were detected against the SSH service (sshd) on host soc-analyst (192.168.1.166). The activity originated from source IP 192.168.1.67, identified as a remote machine within the lab environment.
+Analysis of the logs revealed a high frequency of failed login attempts, averaging approximately 250 attempts per minute, indicating the likely use of an automated brute-force tool utilizing a custom password dictionary against the SSH service.
+
+### Indicators of Compromise (IOCs) observed:
+  - Multiple failed SSH authentication attempts
+  - Repetitive login failures from a single source IP
+  - High-speed authentication requests consistent with automation activity
+
+The attack was unsuccessful, and no unauthorized access was achieved. The targeted system remained secure throughout the incident.
+A detection rule and alert were subsequently created in Splunk to identify similar brute-force behavior in future events.

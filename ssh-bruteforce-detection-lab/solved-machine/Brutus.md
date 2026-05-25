@@ -4,5 +4,14 @@
 ## SSH bruteforce simulation
   - Analyzed the raw auth.log file using terminal
   - Detected, responded and reported to SSH bruteforce attack using
-  - analyzed IOC (indicators of compromise) using raw logs and WTMP file corelated events.
-     
+  - analyzed IOC (indicators of compromise) using raw logs and WTMP file corelating events to each other.
+
+### Discovering SSH bruteforce attack
+Hunting and analyzing failed logins to detect if there is any adversary or unknown IP trying to connect with remote ssh server using automated password spraying tool.
+Noticed too many failed attempts in a very short time window confirms Bruteforce attack execution by adversary ip (65.2.161.68).
+<img width="800" height="406" alt="bruteforce-initail-detection" src="https://github.com/user-attachments/assets/eab71dcd-6757-4ff0-ac15-6ac723479c3f" />
+<img width="800" height="406" alt="detected-adversary-ip" src="https://github.com/user-attachments/assets/c8575e13-65ea-413c-8706-1e81b066502a" />
+
+
+
+

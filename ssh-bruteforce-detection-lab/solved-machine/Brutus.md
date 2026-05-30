@@ -17,4 +17,6 @@ Noticed too many failed attempts in a very short time window confirms Bruteforce
 ## Indicators of Compromise (IOC)
 This log section confirmed that adversary successfully gain control of the victim machine by exploiting SSH services. Adversary created a new user "cyberjunkie" with root access that allowed them the ability to execute commands remotely and succeded in downloading and executing command on victim machine remotely.
 
+
+
 <img width="800" height="406" alt="user-added-by-adversary-with-root-privelleges" src="https://github.com/user-attachments/assets/b040b918-0343-4240-a8a5-5b379e2177dc" />

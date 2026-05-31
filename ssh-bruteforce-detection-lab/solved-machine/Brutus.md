@@ -9,12 +9,19 @@
 ### Discovering SSH bruteforce attack
 Hunting and analyzing failed logins to detect if there is any adversary or unknown IP trying to connect with remote ssh server using automated password spraying tool.
 Noticed too many failed attempts in a very short time window confirms Bruteforce attack execution by adversary ip (65.2.161.68).
+Filtering the exact "Failed password" log entries.
+
+#### Initial Detection
+     grep -i "failed password" auth.log
 
 <img width="800" height="406" alt="bruteforce-initail-detection" src="https://github.com/user-attachments/assets/eab71dcd-6757-4ff0-ac15-6ac723479c3f" />
 
+#### Filtering adversary's IP based
+     grep "65.2.161.68" auth.log
+
 <img width="800" height="406" alt="detected-adversary-ip" src="https://github.com/user-attachments/assets/c8575e13-65ea-413c-8706-1e81b066502a" />
 
-Hunting down more information on that IP using the WYMP file and filtering it using grep command
+Hunting down more information on that IP using the WTMP file and filtering it 
 
 <img width="800" height="298" alt="wtmp-content" src="https://github.com/user-attachments/assets/da59f620-d71b-4937-8179-021ae010c38d" />
 

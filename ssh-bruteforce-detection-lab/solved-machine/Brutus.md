@@ -21,7 +21,7 @@ Filtering the exact "Failed password" log entries.
 
 <img width="800" height="406" alt="detected-adversary-ip" src="https://github.com/user-attachments/assets/c8575e13-65ea-413c-8706-1e81b066502a" />
 
-Hunting down more information on that IP using the WTMP file and filtering it 
+Hunting down more information on that IP using the WTMP file and filtering it using grep.
 
 <img width="800" height="298" alt="wtmp-content" src="https://github.com/user-attachments/assets/da59f620-d71b-4937-8179-021ae010c38d" />
 

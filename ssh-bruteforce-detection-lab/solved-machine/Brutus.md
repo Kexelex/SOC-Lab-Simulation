@@ -27,10 +27,11 @@ Hunting down more information on that IP using the WTMP file and filtering it
 
 <img width="800" height="39" alt="filtered-wtmp" src="https://github.com/user-attachments/assets/84e0b73c-1d39-4a16-b556-2ff7a1c586a4" />
 
-
 ## Indicators of Compromise (IOC)
 This log section confirmed that adversary successfully gain control of the victim machine by exploiting SSH services. Adversary created a new user "cyberjunkie" with root access that allowed them the ability to execute commands remotely and succeded in downloading and executing command on victim machine remotely.
 
 <img width="800" height="406" alt="user-added-by-adversary-with-root-privelleges" src="https://github.com/user-attachments/assets/b040b918-0343-4240-a8a5-5b379e2177dc" />
 
 <img width="800" height="418" alt="malicious-file-downloaded-by-adversary" src="https://github.com/user-attachments/assets/1a4b4eda-827e-4fa5-b784-b9828beec014" />
+
+Adversary succefully executed curl (a tool for transferring data from or to a server using URLs) command to download and run custom shell script on victim's machine.

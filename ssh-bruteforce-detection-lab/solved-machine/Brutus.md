@@ -34,4 +34,4 @@ This log section confirmed that adversary successfully gain control of the victi
 
 <img width="800" height="418" alt="malicious-file-downloaded-by-adversary" src="https://github.com/user-attachments/assets/1a4b4eda-827e-4fa5-b784-b9828beec014" />
 
-Adversary succefully executed curl (a tool for transferring data from or to a server using URLs) command to download and run custom shell script on victim's machine.
+Adversary successfully executed CURL (a tool for transferring data from or to a server using URLs) command to download and run custom shell script on victim's machine.

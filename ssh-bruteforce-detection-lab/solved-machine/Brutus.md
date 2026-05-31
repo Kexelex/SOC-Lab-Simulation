@@ -16,7 +16,7 @@ Filtering the exact "Failed password" log entries.
 
 <img width="800" height="406" alt="bruteforce-initail-detection" src="https://github.com/user-attachments/assets/eab71dcd-6757-4ff0-ac15-6ac723479c3f" />
 
-#### Filtering adversary's IP based
+#### Filtering adversary's IP
      grep "65.2.161.68" auth.log
 
 <img width="800" height="406" alt="detected-adversary-ip" src="https://github.com/user-attachments/assets/c8575e13-65ea-413c-8706-1e81b066502a" />
@@ -25,7 +25,7 @@ Hunting down more information on that IP using the WTMP file and filtering it
 
 <img width="800" height="298" alt="wtmp-content" src="https://github.com/user-attachments/assets/da59f620-d71b-4937-8179-021ae010c38d" />
 
-<img width="800" height="418" alt="malicious-file-downloaded-by-adversary" src="https://github.com/user-attachments/assets/67e2e2b3-ff92-4f39-a1fd-0bbb9ce0086c" />
+<img width="800" height="39" alt="filtered-wtmp" src="https://github.com/user-attachments/assets/84e0b73c-1d39-4a16-b556-2ff7a1c586a4" />
 
 
 ## Indicators of Compromise (IOC)

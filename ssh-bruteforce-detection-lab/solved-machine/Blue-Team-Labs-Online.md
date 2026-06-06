@@ -1,6 +1,6 @@
 ## Blue Team Labs Online - Remote Desktop Protocol (RDP) Analysis
 
-<img width="800" height="450" alt="banner-design" src="https://github.com/user-attachments/assets/cc3d0a06-b27d-4018-8ac1-d024dde5b7d3" />
+<img width="800" height="450" alt="banner-design" src="https://github.com/user-attachments/assets/59abfacb-63a1-4a74-80b7-b5b58f941a38" />
 
 
 RDP bruteforce attack analysis.

@@ -64,7 +64,7 @@
 
 ### Brute Force Pattern Detection (Based on IP)
      index=* sourcetype=syslog "Failed password"
-     |rex "frem(?<src_ip>\d+\.\d+\.\d+\.\d+"
+     |rex "from(?<src_ip>\d+\.\d+\.\d+\.\d+"
      |stats count by src_ip
      |where count > 10
 

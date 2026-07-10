@@ -5,4 +5,4 @@
 BTLO (Blue Team Labs Online) Challenge - The Planet's Prestige
 
 #### Sources Used
-  [Cyberchef] (https://cyberchef.org/) - Data analysis and decoding platform that helps data formats, encryption and compression of data 
+  [Cyberchef](https://cyberchef.org/) - Data analysis and decoding platform that helps data formats, encryption and compression of data 

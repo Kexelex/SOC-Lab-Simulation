@@ -1,5 +1,5 @@
 # Physhing Analysis Lab Findings 
 
-<img width="800" height="450" alt="BTLO Banner" src="https://github.com/user-attachments/assets/21eb2226-5ef7-4ea7-8502-4db7424ecff7" />
+<img width="800" height="450" alt="BTLO Banner" src="https://github.com/user-attachments/assets/94c2ac7b-153c-4017-92d7-ea8ee1d94015" />
 
 BTLO (Blue Team Labs Online) Challenge - The Planet's Prestige

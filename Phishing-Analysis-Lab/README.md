@@ -4,5 +4,6 @@
 
 BTLO (Blue Team Labs Online) Challenge - The Planet's Prestige
 
-#### Sources Used
+### Sources Used
   [Cyberchef](https://cyberchef.org/) - Data analysis and decoding platform that helps data formats, encryption and compression of data 
+  [File Signature Table](https://www.garykessler.net/library/file_sigs_GCK_latest.html) - To identify the signature and exact file type of the attachment.

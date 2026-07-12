@@ -13,11 +13,13 @@ Filtering the exact "Failed password" log entries.
 
 #### Initial Detection
      grep -i "failed password" auth.log
+  Used to find the exact log entries that output only lines that has only "Failed Password" to confirm if the adversary used password spraying tool or manually guessing the passwords.
 
 <img width="800" height="406" alt="bruteforce-initail-detection" src="https://github.com/user-attachments/assets/eab71dcd-6757-4ff0-ac15-6ac723479c3f" />
 
 #### Filtering adversary's IP
      grep "65.2.161.68" auth.log
+Filters the only lines having the exact IP address for further analysis.
 
 <img width="800" height="406" alt="detected-adversary-ip" src="https://github.com/user-attachments/assets/c8575e13-65ea-413c-8706-1e81b066502a" />
 

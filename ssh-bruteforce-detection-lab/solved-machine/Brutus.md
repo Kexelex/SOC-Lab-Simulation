@@ -3,8 +3,8 @@
 # HackTheBox X Brutus
 ## SSH bruteforce simulation
   - Analyzed the raw auth.log file using terminal
-  - Detected, responded and reported to SSH bruteforce attack using
-  - analyzed IOC (indicators of compromise) using raw logs and WTMP file corelating events to each other.
+  - Detected, responded and reported to SSH bruteforce attack.
+  - Analyzed IOC (indicators of compromise) using raw logs and WTMP file corelating events to each other.
 
 ### Discovering SSH bruteforce attack
 Hunting and analyzing failed logins to detect if there is any adversary or unknown IP trying to connect with remote ssh server using automated password spraying tool.

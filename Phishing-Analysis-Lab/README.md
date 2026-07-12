@@ -12,9 +12,4 @@ BTLO (Blue Team Labs Online) Challenge - The Planet's Prestige
 
 ## Analysis Methodology
 
- Analysed the SPF, DKIM and DMARC failures in the mail headers to see if the mail is suspicious or not. Doing further analysis by carefully examining the  
-
-<img width="800" height="60" alt="image" src="https://github.com/user-attachments/assets/133fbef2-6cde-473b-a397-e57cc549966f" />
- - Watched for the SPF (failed), DKIM & DMARC to quickly figure out if the mail is suspicious or not. In this the SPF status is failed that denotes a suspicious mail.
-
-<img width="683" height="151" alt="image" src="https://github.com/user-attachments/assets/e1cc4a57-42cc-4eec-98bf-0f5a2491c1b0" />
+Analysed the SPF, DKIM and DMARC failures in the mail headers to see if the mail is suspicious or not. Doing further analysis by carefully identifying the mail server and performing OSINT on the server to check the authenticity. 

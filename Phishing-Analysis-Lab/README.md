@@ -23,7 +23,7 @@
 | [VirusTotal](https://www.virustotal.com/gui/home/upload) | IOC reputation lookup | 
 | [File Signature Table](https://www.garykessler.net/library/file_sigs_GCK_latest.html) | To identify the signature and exact file type of the attachment. |
 | [Any Run](https://app.any.run/) | Platform used to run the malicious attachment in a sandboxed environment. |
-| [MITRE ATT&CK](https://attack.mitre.org/) | Phishing for initial access (T1566)
+| [MITRE ATT&CK](https://attack.mitre.org/techniques/T1566/) | Phishing for initial access (T1566)
 
 ### Email Header Analysis
 

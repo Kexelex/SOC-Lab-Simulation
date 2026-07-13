@@ -10,6 +10,7 @@
 ### Email Headers
 
 <img width="800" height="250" alt="image" src="https://github.com/user-attachments/assets/b42a4a94-47b2-4a42-92d0-4ecbd46dbe68" />
+
 ### Lab Environment & Source Used
 
 | Component | Purpose |

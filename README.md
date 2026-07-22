@@ -97,6 +97,4 @@ The simulations helped reinforce concepts related to:
 - privileged access management
 - network segregation
 - evidence collection
-- continual security improvement
-
-
+- continual improvement

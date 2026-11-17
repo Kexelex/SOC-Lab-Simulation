@@ -1,20 +1,34 @@
-# My-SOC-Lab-Simulation
-Built a personal Security Operations Center (SOC) lab environment to simulate real-world cyber attacks, perform security monitoring, investigate incidents, and practice detection engineering using Splunk Enterprise and offensive security tooling in an isolated virtualized environment.
+# SOC Lab Simulation | Blue Team & Detection Engineering
+A hands-on Security Operations Center (SOC) lab built to simulate attacks, collect endpoint telemetry, investigate security events, and develop detection capabilities using Splunk Enterprise. Included with workflow detection screenshots from simulation lab.  
+This project demonstrates practical Blue Team skills through Linux and Windows endpoint monitoring, Sysmon telemetry collection, Splunk SIEM, and adversary emulation using Atomic Red Team.
 
 ## Lab Structure
-<img width="1028" height="620" alt="Lab Diagram" src="https://github.com/user-attachments/assets/c2b3fcf2-f20d-443a-a810-e196cfbccb21" />
+<img width="1920" height="1080" alt="Lab Diagram" src="https://github.com/user-attachments/assets/3624f901-a68a-4fec-8aa5-11dd69c8bea9" />
+<I>The diagram represents the intended workflow. Atomic Red Team tests should be run against the appropriate lab endpoint, not assumed to run against every machine.</I>
+
+## Project Objectives
+ - Build and maintain a multi-endpoint SOC lab environment.
+ - Centralize Windows and Linux security logs using Splunk.
+ - Monitor Windows endpoint activity through Sysmon.
+ - Perform controlled adversary emulation using Atomic Red Team.
+ - Investigate suspicious activities and identify indicators of compromise.
+ - Develop SPL queries, detection rules, dashboards, and alerts.
+ - Map simulated activities to the MITRE ATT&CK framework.
+ - Document investigation procedures and security findings.
 
 ## Lab Environment
 
-| Component | Purpose |
-|---|---|
-| Ubuntu Desktop | Main Host OS |
-| Windows 11 Laptop | Separate Endpoint Device for Windows Log Monitoring & Security Event Analysis |
-| Ubuntu Server (TTY) | Victim Machine + Splunk SIEM |
-| Kali Linux | Adversary Simulation Machine |
-| Splunk Enterprise | Log Collection & SIEM Analysis |
-| Splunk Universal Forwarder | Log Forwarding |
-| VirtualBox | Virtualization Platform |
+| Component | Environment | Purpose |
+|---|---|---|
+| Host Machine | Ubuntu Desktop | Main virtualization Host |
+| Hypervisor | VirtualBox | Virtual Lab Inforastructure | 
+| SIEM | Splunk Enterprise | Centralized log monitoring and analysis |
+| Linux Endpoint | Ubuntu Server (TTY) | Linux security event collection |
+| Windows Endpoint | Windows 10 | Windows security monitoring |
+| Log Collection | Splunk Universal Forwarder | Endpoint log forwarding |
+| Endpoint Monitoring | Sysmon | Detailed Windows system telemetry |
+| Adversary Machine | Kali Linux | Controlled attack simulations |
+| Adversary Emulation | Atomic Red Team | Atomic Red Team |
 
 ### Setup & Configuration
   - Installed and configured Splunk Enterprise on the Ubuntu Server VM from scratch.

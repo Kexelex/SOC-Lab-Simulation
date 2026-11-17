@@ -1,4 +1,9 @@
+# Disclaimer
+This project is intended for educational and defensive security research purposes only.  
+All attack simulations and adversary emulation activities are conducted in a controlled lab environment on systems owned or authorized for testing. Atomic Red Team tests are selected and executed individually, with appropriate precautions and cleanup.
+
 # SOC Lab Simulation | Blue Team & Detection Engineering
+
 A hands-on Security Operations Center (SOC) lab built to simulate attacks, collect endpoint telemetry, investigate security events, and develop detection capabilities using Splunk Enterprise. Included with workflow detection screenshots from simulation lab.  
 This project demonstrates practical Blue Team skills through Linux and Windows endpoint monitoring, Sysmon telemetry collection, Splunk SIEM, and adversary emulation using Atomic Red Team.
 
